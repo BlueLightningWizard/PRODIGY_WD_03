@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+  
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PRODIGY_WD_03</title>
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <img src = "Prodigy_InfoTech_Logo.jpg">
+    </nav>
+
+    <h2 id = "speaker">X's turn!</h2>
+
+    <div class = "ui">
+
+        <div class = "row">
+
+            <div class = "cell" id = "#1" style = "border-top-left-radius: 5vw;" onclick = "XO(this.id)"></div>
+            <div class = "cell" id = "#2" onclick = "XO(this.id)"></div>
+            <div class = "cell" id = "#3" style = "border-top-right-radius: 5vw;" onclick = "XO(this.id)"></div>
+
+        </div>
+
+        <div class = "row">
+
+            <div class = "cell" id = "#4" onclick = "XO(this.id)"></div>
+            <div class = "cell" id = "#5" onclick = "XO(this.id)"></div>
+            <div class = "cell" id = "#6" onclick = "XO(this.id)"></div>
+
+        </div>
+
+        <div class = "row">
+
+            <div class = "cell" id = "#7" style = "border-bottom-left-radius: 5vw;" onclick = "XO(this.id)"></div>
+            <div class = "cell" id = "#8" onclick = "XO(this.id)"></div>
+            <div class = "cell" id = "#9" style = "border-bottom-right-radius: 5vw;" onclick = "XO(this.id)"></div>
+
+        </div>
+
+    </div>
+
+    <button class = "reset" onclick = "reset()"> Reset </div>
+
+    <script src = "index.js"></script>
+    
+</body>
+  
+</html>
